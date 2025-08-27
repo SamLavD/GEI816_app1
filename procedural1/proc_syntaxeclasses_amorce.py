@@ -14,7 +14,7 @@ class ConvBase:
     def conv(self):
       raise NotImplementedError()
     
-    def conv():
+    def conv(self):
       pass
 
 ####################################
