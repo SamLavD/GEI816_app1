@@ -13,9 +13,6 @@ class ConvBase:
 
     def conv(self):
       raise NotImplementedError()
-    
-    def conv(self):
-      pass
 
 ####################################
 # number = np.base_repr(x, base=2)
@@ -48,7 +45,7 @@ class ConvHexShift(ConvBase):
     return temp
 
   def conv(self):
-    values = super.lireSrc()
+    values = self.lireSrc()
 
     with open(super.newName(), "w") as myfile:
       for x in values:
